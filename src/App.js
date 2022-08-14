@@ -41,7 +41,7 @@ function App() {
           <Navbar.Brand href="#home">ShoeShop</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link onClick={() => navigate('/')}>Home</Nav.Link>
-            <Nav.Link onClick={() => navigate('/detail/')}>상세페이지</Nav.Link>
+            <Nav.Link onClick={() => navigate('/detail/')}>상세</Nav.Link>
           </Nav>
           <Nav className="me-auto">
             {result.isLoading? '로딩중':result.data.name}
