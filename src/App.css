@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.main-bg{
+  height: 300px;
+  width: 100%;
+  background-image: url('./images/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.alert-warning{
+  background-color: blanchedalmond;
+
+}
+.alert-number{
+  height: 50px;
+  background-color: red;
+  color: black;
+  text-align: center;
+
+}
+
+.start{
+  opacity: 0;
+  background-color:antiquewhite;
+
+}
+
+.end{
+  opacity: 1;
+  transition: opacity 0.5s;
+}
